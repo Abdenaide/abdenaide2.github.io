@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+html{
+	font-family: cursive;
+	font-size: 10px;
+	background-color: #004050;
+}
+header{
+	color: #ffffff;
+	text-align: center;
+	font-size: 4em;
+	font-family: cursive;
+}
+nav{
+	background-color: orange;
+	padding: 20px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+ul, li{ 
+	margin:0 60px; 
+	padding:0 10px;
+	font-size: 20px;
+	text-align: center;
+	display: inline;
+	}
+li, a:hover {
+    color: white;
+}
+a{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+h1{
+	font-size: 40px;
+	padding: 0 20px;
+}
+label{
+	font-size: 15px;
+	margin: 2px;
+}
+input[type=email],select{
+	width: 100%;
+	border: 1px solid black;
+	padding: 12px 20px;
+	margin: 3px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input[type=text],select{
+	width: 100%;
+	border: 1px solid black;
+	padding: 12px 20px;
+	margin: 3px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input[type=submit],select{
+	margin: 3px 0;
+	padding: 10px 20px;
+	width: 100%;
+}
+main{
+	background-color: orange;
+	width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+	border: 3px solid black;
+}
+p{
+	font-size: 15px;
+}

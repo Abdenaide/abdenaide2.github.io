@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+nav{
+	background-color: orange;
+	padding: 20px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+header{
+	color: #ffffff;
+	text-align: center;
+	font-size: 4em;
+	font-family: cursive;
+}
+ul, li{ 
+	margin:0 50px; 
+	padding:0 10px;
+	font-size: 20px;
+	text-align: center;
+	display: inline;
+}
+li, a:hover {
+    color: white;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+a{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+h1{
+	font-family: cursive;
+	font-size: 30px;
+	margin: 0 auto;
+	padding: 10px;
+	display: block;
+}
+
+html{
+	font-family: cursive;
+	font-size: 15px;
+	background-color: #004050;
+}
+
+table, th, td{
+	padding: 0 auto;
+	border: 2px solid black;
+	border-collapse: collapse; 
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	background-color: #ffdd99;
+	
+}
+
+main{
+	background-color: orange;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+	border: 3px solid black;
+}
